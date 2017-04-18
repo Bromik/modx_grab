@@ -1,1 +1,3 @@
-e
+(1, 0, 'msOptionsColor', 0), bd - GM9ffqY2CdEh_msop_colors
+ +(2, 0, 'msOptionsPrice2', 0),  GM9ffqY2CdEh_msop_modifications, GM9ffqY2CdEh_msop_modification_images,GM9ffqY2CdEh_msop_modification_options
+ +(3, 0, 'msRevaluation', 0);  GM9ffqY2CdEh_revaluation

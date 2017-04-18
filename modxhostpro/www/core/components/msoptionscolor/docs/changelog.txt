@@ -1,0 +1,17 @@
+Changelog for msOptionsColor
+
+2.0.3-beta (01.02.2017)
+==============
+- Add "fill_colors_with_create" setting
+
+2.0.2-beta (31.01.2017)
+==============
+- Fix "create", "update" [color/processor]
+
+2.0.1-beta (29.01.2017)
+==============
+- Fix "map"
+
+2.0.0-beta
+==============
+- Initial

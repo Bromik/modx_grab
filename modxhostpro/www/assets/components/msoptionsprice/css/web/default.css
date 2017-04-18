@@ -1,0 +1,8 @@
+
+#msCart input.error {
+	border: 1px solid brown !important;
+}
+
+#msCart .error {
+	color: brown !important;
+}

@@ -1,0 +1,397 @@
+Changelog for msOptionsPrice
+
+2.2.38 beta (04.04.2017)
+==============
+- Improved compatibility with "mFilter2" [js]
+
+2.2.37 beta (26.03.2017)
+==============
+- Add "msopOnModificationBeforeSave", "msopOnModificationSave",
+ "msopOnModificationBeforeRemove", "msopOnModificationRemove" event
+
+
+2.2.36 beta (25.03.2017)
+==============
+- Move functional "msOptionsPrice.cart.remains" to "msOptionsPrice.initialize" snippet
+- Remove functional "msOptionsPrice.cart.remains" snippet
+- Improved "modification" remains
+
+2.2.35 beta (24.03.2017)
+==============
+- Add "grid_modification_fields" setting
+
+2.2.34 beta (24.03.2017)
+==============
+- Add "msOptionsPrice.cart.remains" snippet
+
+2.2.33 beta (21.03.2017)
+==============
+- Add "en" lexicon
+
+2.2.32 beta (20.03.2017)
+==============
+- Fix "setValue" [js]
+
+2.2.31 beta (27.02.2017)
+==============
+- Add "processOptions" [msOptionsPrice.modification]
+
+2.2.30 beta (24.02.2017)
+==============
+- Fix "initialize" [msOptionsPricePlugin]
+
+2.2.29 beta (20.02.2017)
+==============
+- Add "modifications" to "product options"
+- Change "ms2_product_thumbnail_size" setting
+
+2.2.28 beta (09.02.2017)
+==============
+- Fix compatibility with "mSearch2" [js]
+
+2.2.27 beta (06.02.2017)
+==============
+- Empty "sync data" [dublicate]
+
+2.2.26 beta (04.02.2017)
+==============
+- Add "loadOptions" fields [msopModification]
+
+2.2.25 beta (04.02.2017)
+==============
+- Add "sync_id","sync_service" fields [msopModification]
+
+2.2.24 beta (04.02.2017)
+==============
+- Improved "getModificationByOptions" [msopModification]
+
+2.2.23 beta (02.02.2017)
+==============
+- Add "allow_zero_old_cost" setting
+- Add hide, show "old_cost" [js]
+
+2.2.22 beta (01.02.2017)
+==============
+- Add "getOldCostByModification" [msopModification]
+- Add "old_price" field [msopModification]
+
+2.2.20 beta (30.01.2017)
+==============
+- Fix "msopmodification.map" [msopModification]
+
+2.2.19 beta (30.01.2017)
+==============
+- Fix "saveProductModification" [msopModification]
+
+2.2.18 beta (26.01.2017)
+==============
+- Improved "saveProductModification" [msopModification]
+- Improved "removeProductModification" [msopModification]
+
+2.2.17 beta (26.01.2017)
+==============
+- Add "removeProductModification" [msopModification]
+
+2.2.16 beta (25.01.2017)
+==============
+- Fix "getModificationById" [msopModification]
+
+2.2.15 beta (24.01.2017)
+==============
+- Change "saveProductModification" [msopModification]
+- Add "idx" [msOptionsPrice.modification]
+
+2.2.14 beta (24.01.2017)
+==============
+- Change "get price" [msOptionsPrice.modification]
+- Add "excludeIds" ["msoptionsprice"]
+
+2.2.13 beta (24.01.2017)
+==============
+- Add "prepareQueryOptions" ["msoptionsprice"]
+- Fix "set options" [js]
+
+2.2.12 beta (23.01.2017)
+==============
+- Fix "fotorama" [js]
+- Fix "type modification" ["msoptionsprice"]
+- Fix "getModificationByImage" ["msoptionsprice"]
+- Fix "getModificationByOptions" ["msoptionsprice"]
+
+2.2.11 beta (23.01.2017)
+==============
+- Add "exclude fieldNames, fieldClasess" [js]
+- Improved "msAddLinked" [js]
+
+2.2.10 beta (23.01.2017)
+==============
+- Fix "load pdoFetch", "get price" [msOptionsPrice.modification]
+
+2.2.9 beta (19.01.2017)
+==============
+- Fix "gallery" [minishop2]
+
+2.2.8 beta (18.01.2017)
+==============
+- Fix round "old_cost"
+
+2.2.7 beta (17.01.2017)
+==============
+- Add "duplicate action"
+
+2.2.6 beta (17.01.2017)
+==============
+- Add "process old_cost"
+- Add "formatPrice", "formatWeight" [msOptionsPrice.modification]
+
+2.2.5 beta (13.01.2017)
+==============
+- Fix "option getkeys"
+
+2.2.4 beta (13.01.2017)
+==============
+- Fix "option getkeys"
+
+2.2.3 beta (12.01.2017)
+==============
+- Add "allow_zero_modification" setting
+
+2.2.2 beta (06.01.2017)
+==============
+- Improved compatibility with "UserFiles"
+
+2.2.1 beta (05.01.2017)
+==============
+- Fix "qtip image" [js]
+- Add setting "modification_gallery_class"
+- Improved compatibility with "UserFiles"
+
+2.2.0 beta (26.12.2016)
+==============
+- Add "sortby rank" [msoptionsprice]
+- Add "byOptions" [msOptionsPrice.modification]
+
+2.1.25 beta - (23.12.2016)
+==============
+- Fix "change gallery image" [js]
+- Add "setGalleryImage,setValue" [js]
+
+2.1.24 beta - (14.12.2016)
+==============
+- Add "allow_remains" setting
+- Improved "msOnBeforeAddToCart" event
+- Add "msOnBeforeChangeInCart", "msOnCreateOrder", "msOnChangeOrderStatus" event
+
+2.1.23 beta - (09.12.2016)
+==============
+- Change "number_format" setting
+- Fix "getModificationByOptions sort" [msoptionsprice]
+- Fix "getModificationByImage sort" [msoptionsprice]
+- Improved "msoptionsprice"
+- Improved "modification get" processor
+
+2.1.22 beta - (06.12.2016)
+==============
+- Improved "modification getlist" processor
+- Improved "product getimages" processor
+- Improved "gallery sort" processor
+- Improved "gallery update" processor
+
+2.1.21 beta - (05.12.2016)
+==============
+- Add "allow_zero_article", "allow_zero_count" setting
+- Add "getFirstThumbnailId" method
+- Improved "getModificationById" method
+
+2.1.20 beta - (02.12.2016)
+==============
+- Improved "msopModificationGetProcessor"
+
+2.1.19 beta - (02.12.2016)
+==============
+- Add "msopOnGetModificationById", "msopOnModificationNotFound" event
+- Improved "msOptionsPriceMsOnGetProductPrice", "msOptionsPriceMsOnGetProductWeight"
+
+2.1.18 beta - (02.12.2016)
+==============
+- Improved "saveProductModification"
+- Improved "getModificationById"
+
+2.1.17 beta - (30.11.2016)
+==============
+- Add "name" modification
+
+2.1.16 beta - (30.11.2016)
+==============
+- Add "msopOnGetFullCost", "msopOnGetFullMass" event
+
+2.1.15 beta - (27.11.2016)
+==============
+- Fix "thumb rank" [msopModification]
+
+2.1.14 beta - (23.11.2016)
+==============
+- Fix "fotorama" [js]
+
+2.1.13 beta - (23.11.2016)
+==============
+- Fix "gallery" [minishop2]
+
+2.1.12 beta - (23.11.2016)
+==============
+- Fix "not handle arrays options"
+
+2.1.11 beta - (19.11.2016)
+==============
+- Add "sort_modification_option_values" setting
+- Add "prepareOptionValues" method
+
+2.1.9-2.1.10 beta - (18.11.2016)
+==============
+- Add "window_modification_tabs" setting
+- Add "modification_thumbs" setting
+- Add "modification gallery"
+- Add "msOptionsPriceOnInit" plugin
+- Add "loadImages", "loadThumbs" methods
+- Add "images", "thumbs" to modification
+
+2.1.8-beta - (14.11.2016)
+==============
+- Improved "saveProductModification"
+
+2.1.7-beta - (08.10.2016)
+==============
+- Fix "radio" "default.js"
+
+2.1.6-beta - (26.10.2016)
+==============
+- Fix "msOptionsPrice.modification" snippet
+- Fix "default.js"
+
+2.1.5-beta - (18.10.2016)
+==============
+- Improved "msOptionsPrice.modification" snippet
+- Change "tpl.msOptionsPrice.modification" chunk
+- Add "msOnBeforeAddToCart" event
+
+2.1.4-beta - (15.10.2016)
+==============
+- Improved "msOptionsPrice.modification" snippet
+
+2.1.3-beta - (15.10.2016)
+==============
+- Fix "msOptionsPriceMsOnGetProductPrice", "msOptionsPriceMsOnGetProductWeight" return
+
+2.1.2-beta - (14.10.2016)
+==============
+- Add "getProductModification"
+- Add "saveProductModification"
+- Add "create_modification_with_duplicate" setting
+- Add "number_format" setting
+- Add "OnResourceDuplicate", "OnEmptyTrash" plugin
+
+2.1.1-beta - (11.10.2016)
+==============
+- Fix Notice
+
+2.1.0-beta - (10.10.2016)
+==============
+- Add setting "search_modification_by_image_strict"
+- Improved "getModificationByImage"
+
+2.0.20-beta - (06.10.2016)
+==============
+- Fix "formatPrice", "formatWeight"
+- Fix "get modification" by "image"
+- Add "getMassByModification"
+- Add "msopOnBeforeGetMass", "msopOnAfterGetMass"
+- Add "mass" to "default.js"
+
+2.0.19-beta - (05.10.2016)
+==============
+- Add "getAlias" 
+
+2.0.18-beta - (05.10.2016)
+==============
+- Fix snippet "msOptionsPrice.modification"
+- Improved "getkeys.class.php"
+
+2.0.17-beta - (03.10.2016)
+==============
+- Fix again "getvalues.class.php"
+- Change "minChars" combo "values"
+
+2.0.16-beta - (03.10.2016)
+==============
+- Fix "getvalues.class.php"
+
+2.0.15-beta - (02.10.2016)
+==============
+- Improved "getModificationByOptions"
+- Improved "get modification"
+- Change "options" on "msoptionsprice_options" in "product Data"
+
+2.0.14-beta - (27.09.2016)
+==============
+- Add "formatOptionValue" in "default.js"
+
+2.0.13-beta - (26.09.2016)
+==============
+- Fix "modification options" in "grid"
+
+2.0.12-beta - (26.09.2016)
+==============
+- Improved "modification options" in "default.js"
+
+2.0.11-beta - (26.09.2016)
+==============
+- Fix "set modification options"
+- Fix "sort modification options"
+- Fix "getModificationByOptions"
+- Add "msoptionsprice_product_action" event in "default.js"
+
+2.0.10-beta - (15.09.2016)
+==============
+- Add "sort product options" on "add, remove"
+
+2.0.9-beta - (13.09.2016)
+==============
+- Fix compatibility with "mSearch2"
+
+2.0.8-beta - (13.09.2016)
+==============
+- Removed "value" from "exclude_modification_options"
+
+2.0.7-beta - (11.09.2016)
+==============
+- Improved "modification panel"
+- Improved "modification options"
+
+2.0.6-beta - (08.09.2016)
+==============
+- Fix "get modification" in "plugin"
+
+2.0.5-beta - (08.09.2016)
+==============
+- Improved "search modification"
+- Add setting "search_modification_strict"
+
+2.0.4-beta - (07.09.2016)
+==============
+- Fix "default.js"
+
+2.0.3-beta - (07.09.2016)
+==============
+- Add setting "exclude_modification_options"
+
+2.0.2-beta - (06.09.2016)
+==============
+- Improved compatibility with "mSearch2"
+
+2.0.1-beta - (06.09.2016)
+==============
+- Add "modification image"
+
+2.0.0-beta
+==============
+- Initial
